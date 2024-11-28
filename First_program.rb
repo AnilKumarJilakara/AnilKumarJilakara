@@ -51,14 +51,14 @@ puts"select method in ruby"
         p x
     end
 end
-
+=end
 arr=%w(Thissss is a quick chapter which i have seennn)
 arr.each do |x| 
     if x.length>5
         puts x
     end
 end
-=end
+
 %w(a b c d e f ).each do |v|
     if v=~/[aeiou]/
         puts v 
